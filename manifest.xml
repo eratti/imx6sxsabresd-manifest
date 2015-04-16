@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="git://git.yoctoproject.org/"                                     name="yocto"              />
+    <remote fetch="git://git.openembedded.org/"                                     name="oe"                 />
+    <remote fetch="git://git.freescale.com/imx"                                     name="fsl-release"        />
+    <remote fetch="git://github.com/Freescale"                                      name="freescale"          />
+    <remote fetch="git://github.com/OSSystems"                                      name="OSSystems"          />
+    <remote fetch="git://github.com/meta-qt5"                                       name="QT5"                />
+
+    <project remote="yocto"     revision="f20e4c0cf6ddb29a1aad6e7b095e1472e81d330c" name="poky"               />
+    <project remote="yocto"     revision="b74e5e690d8d4e149ea9de3f0fcca37bad93935f" name="meta-fsl-arm"       />
+    <project remote="oe"        revision="7bbacd0023fa1111da94ba0b2aafd7d872301ffe" name="meta-openembedded"  />
+    <project remote="freescale" revision="b32528c10caac5e85f2b5efe0e5b95322dd68ace" name="meta-fsl-arm-extra" />
+    <project remote="freescale" revision="48cb0bcdd226d2e7eee1fdc222713e1dff93342c" name="meta-fsl-demos"     />
+    <project remote="OSSystems" revision="63963cc56c8d0291779693e62b66cb16e5c86883" name="meta-browser"       />
+    <project remote="QT5"       revision="41c5daa84af4466bfc9aa61f6f772c68470a628b" name="meta-qt5"           />
+</manifest>
+
